@@ -2,7 +2,7 @@ import cv2
 video=cv2.VideoCapture(0)
 #while True:
     #_,frame=video.read()
-frame=cv2.imread('car2.png') 
+frame=cv2.imread('car3.png') 
 frame=cv2.cvtColor(frame,cv2.COLOR_BGR2GRAY)
 blur_img = cv2.GaussianBlur(frame, (5, 5), 0)                     #Apply the Gaussian Blur on the Image Enhanced in order to reduce the Noise. 
 tresh_img = cv2.adaptiveThreshold(blur_img, 255.0,                             #Apply the adaptive thresholding onto the Gaussian-Blurred image received.
