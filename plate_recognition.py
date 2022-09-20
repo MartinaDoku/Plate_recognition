@@ -59,3 +59,4 @@ for char in final_list_of_chars:
 #if k== ord("k"):
 #    break
 #i love martina 
+# i love her 8 :p
