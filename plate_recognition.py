@@ -58,3 +58,4 @@ for char in final_list_of_chars:
 #k=cv2.waitKey(0)
 #if k== ord("k"):
 #    break
+#i love martina 
