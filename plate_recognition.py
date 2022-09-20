@@ -36,3 +36,4 @@ cv2.imshow("video",tresh_img_clr)
 k=cv2.waitKey(0)
 #if k== ord("k"):
 #    break
+#i love martina
